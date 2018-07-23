@@ -1,0 +1,49 @@
+# Basic
+title: LSnail
+subtitle: 是时候给Xcode装一个防沉迷了
+welcome_message: #<a href="https://lsnail.github.io" target="_blank">Download the theme</a>
+description: 嗨，我是韩驰，一个沉迷于iOS的开发者，正在探索属于自己的进阶之路。
+creator: <a href="https://lsnail.github.io">@LSnail</a>
+
+url: "https://lsnail.github.io"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: rouge
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color:
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    #- {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    #- {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: vno-jekyll
+    #duoshuo:
+    
+# Social
+social:
+    #weibo: onevcat
+    github: lsnail
+    #twitter: onevcat
+    #gplus: 107108267983477358170
+    mail: lovinsnail@outlook.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
